@@ -5,7 +5,6 @@ class player_average:
 		total_runs_scored=[]
 		for indv_player in names:
 			run_scored=[]
-			print(indv_player)
 			for a,b,c in player_list[1:]:
 				if b==indv_player:
 					p,q,r,s=map(int,c.strip().split(' ')[:4])
